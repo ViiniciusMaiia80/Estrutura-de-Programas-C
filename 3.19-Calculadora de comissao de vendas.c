@@ -10,7 +10,7 @@ int main(void){
 
         comissao = 200 + (0.09*vendas);
 
-        printf("\nO pagamento nesta semana do funcionario eh: R$%.2f\n", comissao);
+        printf("O pagamento nesta semana do funcionario eh: R$%.2f\n", comissao);
 
     }
     return 0;
