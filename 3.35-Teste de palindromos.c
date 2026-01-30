@@ -19,7 +19,10 @@ int main(void){
 	digitos = (numero/10)%10;//Elimina o primeiro e ultimo digito do numero com 3 algarismos.
 
 	
-	if(result==1)printf("O numero %d eh um palindromo",numero);
-	else printf("O numero %d nao eh um palindromo", numero);
+	if(result==1){
+		printf("O numero %d eh um palindromo",numero);
+	}else{
+		printf("O numero %d nao eh um palindromo", numero);
+	} 
 	return 0;
 }
